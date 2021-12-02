@@ -5,8 +5,13 @@
     "strict": true,
     "esModuleInterop": true,
     "outDir": "dist",
-    "resolveJsonModule": true
-  },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "lib": ["ES2018", "DOM"],
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "*": ["node_modules/*"]
+  },  
   "include": ["./scripts", "./test"],
   "files": ["./hardhat.config.ts"]
 }

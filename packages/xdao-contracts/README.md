@@ -28,6 +28,14 @@ Coverage
 yarn coverage
 ```
 
+
+## deployment  steps : 
+> define an new server  on the moralis server (for the moment  its supported only , but will switch to other service).
+> create an new env file with the  required parameters :
+    - API_ENDPOINT. 
+    - SECRET_KEY. 
+
+
 ## Licensing
 
 The primary license for XDAO is the Business Source License 1.1 (`BUSL-1.1`), see [`LICENSE`](./LICENSE).
